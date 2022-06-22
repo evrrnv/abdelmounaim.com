@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./public/assets/css/tailwind.src.css -o ./public/assets/css/tailwind.min.css --watch",
+    "build": "tailwindcss -i ./public/assets/css/tailwind.src.css -o ./public/assets/css/tailwind.min.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evrrnv/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evrrnv/portfolio/issues"
+  },
+  "homepage": "https://github.com/evrrnv/portfolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24"
+  }
+}
