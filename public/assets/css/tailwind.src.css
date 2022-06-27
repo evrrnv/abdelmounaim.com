@@ -50,7 +50,7 @@
 }
 
 @-moz-document url-prefix() {
-    .blur-\[138px\] {
+    .blur-\[138px\], .blur-\[100px\] {
         opacity: 0.5;
     }
 }

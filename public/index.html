@@ -14,7 +14,7 @@
 
         <style></style>
     </head>
-    <body class="font-inter">
+    <body class="font-inter text-black relative">
         <header class="w-full">
             <div class="flex flex-wrap sm:flex-nowrap items-center justify-between max-w-[78rem] mx-auto my-4 sm:my-4">
                 <div class="order-1 text-electric-violet font-bold text-2xl ml-6">Abdelmounaim.</div>
@@ -41,7 +41,7 @@
                         >
                     </li>
                 </ul>
-                <button aria-label="Toggle Menu" id="menu" class="order-2 sm:hidden text-gray-500 w-10 h-10 relative focus:outline-none bg-white mr-6">
+                <button aria-label="Toggle Menu" id="menu" class="order-2 sm:hidden text-gray-500 w-10 h-10 relative focus:outline-none mr-6">
                     <div class="block w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 animate-top-line">
                         <span aria-hidden="true" class="block absolute h-0.5 w-6 bg-electric-violet transform transition duration-500 ease-in-out top-line"></span>
                         <span aria-hidden="true" class="block absolute h-0.5 w-6 bg-electric-violet transform transition duration-500 ease-in-out middle-line"></span>
@@ -51,47 +51,64 @@
             </div>
         </header>
 
-        <main>
-            <div>
-                <div style="background: linear-gradient(73.6deg, rgba(18, 194, 233, 0.6) -7.76%, rgba(196, 113, 237, 0.6) 53.74%, rgba(246, 79, 89, 0.6) 114.36%)" class="hidden lg:block w-80 h-80 absolute blur-[138px] z-[-1]"></div>
+        <svg class="absolute bottom-16 right-0" width="181" height="429" viewBox="0 0 181 429" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M507.5 225.82c0 119.964-98.714 217.227-220.5 217.227S66.5 345.784 66.5 225.82C66.5 105.855 165.214 8.592 287 8.592s220.5 97.263 220.5 217.228Z" stroke="#834BFF" stroke-opacity=".3" />
+            <path d="M570.5 228.775c0 119.965-98.714 217.228-220.5 217.228S129.5 348.74 129.5 228.775c0-119.964 98.714-217.227 220.5-217.227s220.5 97.263 220.5 217.227Z" stroke="#834BFF" stroke-opacity=".3" />
+            <path d="M441.5 214.982c0 119.965-98.714 217.228-220.5 217.228S.5 334.947.5 214.982C.5 95.018 99.214-2.245 221-2.245s220.5 97.263 220.5 217.227Z" stroke="#834BFF" stroke-opacity=".3" />
+        </svg>
 
-                <div class="max-w-[78rem] mx-auto pt-16 lg:pt-32 lg:pb-44 relative">
-                    <div class="px-6">
-                        <h1 class="text-electric-violet font-bold text-4xl md:text-7xl max-w-[30rem]">Abdelmounaim Bousmat</h1>
-                        <p class="text-emperor text-base md:text-xl mt-6 max-w-[28rem] tracking-wider">I'm manage a variety of modern enterprise software project on behalf of clients</p>
-                        <button aria-label="Hire me" class="bg-electric-violet hover:bg-purple-heart text-white rounded-full py-4 px-6 font-bold tracking-wider mt-12 md:mt-16 border-2 active:bg-purple-heart active:border-[#A981FF]">Hire Me</button>
+        <svg class="absolute bottom-16 right-0 z-[-1] blur-[100px]" width="754" height="336" viewBox="0 0 754 336" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M816.763 204.601C988.698 195.787 1115 423.125 1115 423.125L992.849 541C992.849 541 952.105 287.971 816.763 283.196C681.42 278.422 720.573 340.123 597.314 335.715C474.056 331.308 421.852 316.985 375.449 263.731C329.046 210.478 310.098 182.345 288.443 121.232C261.374 44.8406 171.468 56.2258 83.0117 43.7387C12.2468 33.7491 43.2146 75.5685 0.356079 64.6729C-3.1886 51.5738 18.2406 22.0701 132.315 8.8485C274.908 -7.67848 151.65 1.13581 259.924 19.8664C368.198 38.597 408.318 70.5492 438.286 95.156C468.255 119.763 480.823 162.733 540.277 186.238C587.84 205.042 644.827 213.416 816.763 204.601Z"
+                fill="url(#paint0_linear_42_77)"
+            />
+            <defs>
+                <linearGradient id="paint0_linear_42_77" x1="1296.66" y1="426.125" x2="8.61184" y2="-355.561" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#CCCAF9" />
+                    <stop offset="1" stop-color="#BECBFF" />
+                </linearGradient>
+            </defs>
+        </svg>
+
+        <main>
+            <div style="background: linear-gradient(73.6deg, rgba(18, 194, 233, 0.6) -7.76%, rgba(196, 113, 237, 0.6) 53.74%, rgba(246, 79, 89, 0.6) 114.36%)" class="hidden lg:block w-80 h-80 absolute blur-[138px] z-[-1]"></div>
+
+            <div class="max-w-[78rem] mx-auto pt-16 lg:pt-32 lg:pb-44 relative">
+                <div class="px-6">
+                    <h1 class="text-electric-violet font-bold text-4xl md:text-7xl max-w-[30rem]">Abdelmounaim Bousmat</h1>
+                    <p class="text-emperor text-base md:text-xl mt-6 max-w-[28rem] tracking-wider">I'm manage a variety of modern enterprise software project on behalf of clients</p>
+                    <a href="/contact" class="block w-fit bg-electric-violet hover:bg-purple-heart text-white rounded-full py-4 px-6 font-bold tracking-wider mt-12 md:mt-16 border-2 active:bg-purple-heart active:border-[#A981FF]">Hire Me</a>
+                </div>
+
+                <div class="relative h-[22rem] md:h-[26rem] lg:h-[37rem] lg:absolute right-0 bottom-0 z-[-1] w-full overflow-y-hidden lg:overflow-y-clip md:w-auto">
+                    <svg class="w-full lg:w-[828px] mt-32" viewBox="0 0 835 498" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="444" cy="532" r="310.5" stroke="#834BFF" stroke-opacity="0.3" />
+                        <circle cx="444" cy="532" r="390.5" stroke="#834BFF" stroke-opacity="0.3" />
+                        <circle cx="782.5" cy="119.5" r="13.5" fill="#834BFF" fill-opacity="0.4" />
+                        <circle cx="180.5" cy="110.5" r="13.5" fill="#834BFF" fill-opacity="0.4" />
+                        <circle cx="638" cy="50" r="7" fill="#834BFF" fill-opacity="0.4" />
+                        <circle class="hidden sm:block" cx="7" cy="359" r="7" fill="#834BFF" fill-opacity="0.4" />
+                        <circle cx="76" cy="221" r="7" fill="#834BFF" fill-opacity="0.4" />
+                        <circle cx="597.5" cy="3.5" r="3.5" fill="#834BFF" fill-opacity="0.4" />
+                    </svg>
+
+                    <div style="background: linear-gradient(73.6deg, #cccaf9 -7.76%, #becbff 114.36%)" class="w-full h-80 md:h-96 lg:h-[36rem] absolute rounded-full blur-[80px] z-[-1] -bottom-32 left-1/2 -translate-x-1/2"></div>
+
+                    <img class="absolute bottom-0 left-1/2 -translate-x-1/2 w-56 md:w-72 lg:w-96" src="./assets/images/pic.png" width="450" height="603.13" alt="" />
+
+                    <div class="text-center absolute bottom-[10%] left-8 lg:left-28 bg-white rounded-full py-1 sm:py-3 lg:py-4 px-4 sm:px-8 border-8 border-transparent before:-m-2 before:rounded-full before:absolute before:inset-0 z-0 before:z-[-1] before:bg-whitetro bg-clip-padding">
+                        <div class="font-bold text-xs sm:text-sm lg:text-base">Web Developer</div>
+                        <div class="text-[0.6rem] sm:text-sm text-electric-violet mt-1">4 Years</div>
                     </div>
 
-                    <div class="relative h-[22rem] md:h-[37rem] lg:absolute right-0 bottom-0 z-[-1] w-full overflow-y-hidden lg:overflow-y-clip md:w-auto">
-                        <svg class="w-full lg:w-[828px] mt-32" viewBox="0 0 835 498" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="444" cy="532" r="310.5" stroke="#834BFF" stroke-opacity="0.3" />
-                            <circle cx="444" cy="532" r="390.5" stroke="#834BFF" stroke-opacity="0.3" />
-                            <circle cx="782.5" cy="119.5" r="13.5" fill="#834BFF" fill-opacity="0.4" />
-                            <circle cx="180.5" cy="110.5" r="13.5" fill="#834BFF" fill-opacity="0.4" />
-                            <circle cx="638" cy="50" r="7" fill="#834BFF" fill-opacity="0.4" />
-                            <circle class="hidden sm:block" cx="7" cy="359" r="7" fill="#834BFF" fill-opacity="0.4" />
-                            <circle cx="76" cy="221" r="7" fill="#834BFF" fill-opacity="0.4" />
-                            <circle cx="597.5" cy="3.5" r="3.5" fill="#834BFF" fill-opacity="0.4" />
-                        </svg>
-
-                        <div style="background: linear-gradient(73.6deg, #cccaf9 -7.76%, #becbff 114.36%)" class="w-full h-80 md:h-[36rem] absolute rounded-full blur-[80px] z-[-1] -bottom-32 left-1/2 -translate-x-1/2"></div>
-
-                        <img class="absolute bottom-0 left-1/2 -translate-x-1/2 w-56 md:w-96" src="./assets/images/pic.png" width="450" height="603.13" />
-
-                        <div class="text-center absolute bottom-[10%] left-8 lg:left-28 bg-white rounded-full py-1 sm:py-3 lg:py-4 px-4 sm:px-8 border-8 border-transparent before:-m-2 before:rounded-full before:absolute before:inset-0 z-0 before:z-[-1] before:bg-whitetro bg-clip-padding">
-                            <div class="font-bold text-xs sm:text-sm lg:text-base">Web Developer</div>
-                            <div class="text-[0.6rem] sm:text-sm text-electric-violet mt-1">4 Years</div>
-                        </div>
-
-                        <div class="text-center absolute bottom-[35%] right-8 lg:right-28 bg-white rounded-full py-1 sm:py-3 lg:py-4 px-4 sm:px-8 border-8 border-transparent before:-m-2 before:rounded-full before:absolute before:inset-0 z-0 before:z-[-1] before:bg-whitetro bg-clip-padding">
-                            <div class="font-bold text-xs sm:text-sm lg:text-base">Mobile Developer</div>
-                            <div class="text-[0.6rem] sm:text-sm text-electric-violet mt-1">2 Years</div>
-                        </div>
+                    <div class="text-center absolute bottom-[35%] right-8 lg:right-28 bg-white rounded-full py-1 sm:py-3 lg:py-4 px-4 sm:px-8 border-8 border-transparent before:-m-2 before:rounded-full before:absolute before:inset-0 z-0 before:z-[-1] before:bg-whitetro bg-clip-padding">
+                        <div class="font-bold text-xs sm:text-sm lg:text-base">Mobile Developer</div>
+                        <div class="text-[0.6rem] sm:text-sm text-electric-violet mt-1">2 Years</div>
                     </div>
                 </div>
             </div>
 
-            <div class="flex justify-between flex-col md:flex-row max-w-[78rem] mx-auto py-16 md:py-32 px-6 gap-6">
+            <div class="flex justify-between flex-col md:flex-row max-w-[78rem] mx-auto mt-16 md:mt-32 px-6 gap-6">
                 <div class="max-w-lg flex flex-col">
                     <div>
                         <h2 class="font-bold text-3xl md:text-4xl">Any Type of Query & Discussion.</h2>
@@ -120,25 +137,40 @@
                 </div>
             </div>
 
-            <div class="max-w-[78rem] mx-auto flex gap-8 px-6 flex-col md:flex-row">
-                <div class="md:w-1/3 border border-alto text-center py-10 px-8 rounded-2xl">
-                    <div class="h-14 w-14 bg-concrete flex justify-center items-center rounded-xl mx-auto">
-                        <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M35.5 26.6666V13.3333C35.4994 12.7487 35.3451 12.1746 35.0526 11.6685C34.76 11.1624 34.3396 10.7422 33.8333 10.4499L22.1667 3.78325C21.6599 3.49069 21.0851 3.33667 20.5 3.33667C19.9149 3.33667 19.3401 3.49069 18.8333 3.78325L7.16667 10.4499C6.66044 10.7422 6.23997 11.1624 5.94744 11.6685C5.6549 12.1746 5.5006 12.7487 5.5 13.3333V26.6666C5.5006 27.2511 5.6549 27.8252 5.94744 28.3313C6.23997 28.8374 6.66044 29.2576 7.16667 29.5499L18.8333 36.2166C19.3401 36.5091 19.9149 36.6632 20.5 36.6632C21.0851 36.6632 21.6599 36.5091 22.1667 36.2166L33.8333 29.5499C34.3396 29.2576 34.76 28.8374 35.0526 28.3313C35.3451 27.8252 35.4994 27.2511 35.5 26.6666Z"
-                                stroke="black"
-                                stroke-width="3"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                            />
-                            <path d="M5.94995 11.6001L20.5 20.0168L35.0499 11.6001" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M20.5 36.8V20" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
+            <div class="max-w-[78rem] mx-auto flex gap-8 px-6 mt-16 md:mt-32 flex-col md:flex-row md:flex-wrap lg:flex-nowrap">
+                <div class="flex flex-col md:flex-row gap-8 md:w-full lg:w-4/6">
+                    <div class="md:w-1/2 border border-alto text-center py-12 px-8 rounded-2xl">
+                        <div class="h-14 w-14 bg-concrete flex justify-center items-center rounded-xl mx-auto">
+                            <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M35.5 26.6666V13.3333C35.4994 12.7487 35.3451 12.1746 35.0526 11.6685C34.76 11.1624 34.3396 10.7422 33.8333 10.4499L22.1667 3.78325C21.6599 3.49069 21.0851 3.33667 20.5 3.33667C19.9149 3.33667 19.3401 3.49069 18.8333 3.78325L7.16667 10.4499C6.66044 10.7422 6.23997 11.1624 5.94744 11.6685C5.6549 12.1746 5.5006 12.7487 5.5 13.3333V26.6666C5.5006 27.2511 5.6549 27.8252 5.94744 28.3313C6.23997 28.8374 6.66044 29.2576 7.16667 29.5499L18.8333 36.2166C19.3401 36.5091 19.9149 36.6632 20.5 36.6632C21.0851 36.6632 21.6599 36.5091 22.1667 36.2166L33.8333 29.5499C34.3396 29.2576 34.76 28.8374 35.0526 28.3313C35.3451 27.8252 35.4994 27.2511 35.5 26.6666Z"
+                                    stroke="black"
+                                    stroke-width="3"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                                <path d="M5.94995 11.6001L20.5 20.0168L35.0499 11.6001" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M20.5 36.8V20" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="mt-8 font-bold text-xl sm:text-2xl">Computer Engineer</h3>
+                        <p class="mt-6">Adipiscing facilisis fringilla lorem volutpat nibh massa non aliquam diam iaculis nunc</p>
                     </div>
-                    <h3 class="mt-8 font-bold text-xl sm:text-2xl">Computer Engineer</h3>
-                    <p class="mt-6">Adipiscing facilisis fringilla lorem volutpat nibh massa non aliquam diam iaculis nunc</p>
+                    <div class="md:w-1/2 border border-alto text-center py-12 px-8 rounded-2xl">
+                        <div class="h-14 w-14 bg-concrete flex justify-center items-center rounded-xl mx-auto">
+                            <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 30L33 30C34.3807 30 35.5 28.8807 35.5 27.5V10C35.5 8.61929 34.3807 7.5 33 7.5L8 7.5C6.61929 7.5 5.5 8.61929 5.5 10L5.5 27.5C5.5 28.8807 6.61929 30 8 30Z" stroke="#040404" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M25.5 35H15.5" stroke="#040404" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M5.5 23.75H35.5" stroke="#040404" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M20.5 30V35" stroke="#040404" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="mt-8 font-bold text-xl sm:text-2xl">Web Developer</h3>
+                        <p class="mt-6">Adipiscing facilisis fringilla lorem volutpat nibh massa non aliquam diam iaculis nunc</p>
+                    </div>
                 </div>
-                <div class="md:w-1/3 border border-alto text-center py-10 px-8 rounded-2xl">
+
+                <div class="md:w-full lg:w-1/3 border border-alto text-center py-12 px-8 rounded-2xl">
                     <div class="h-14 w-14 bg-concrete flex justify-center items-center rounded-xl mx-auto">
                         <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M28 3.75H13C11.6193 3.75 10.5 4.86929 10.5 6.25V33.75C10.5 35.1307 11.6193 36.25 13 36.25H28C29.3807 36.25 30.5 35.1307 30.5 33.75V6.25C30.5 4.86929 29.3807 3.75 28 3.75Z" stroke="#040404" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
@@ -146,23 +178,129 @@
                             <path d="M10.5 31.25H30.5" stroke="#040404" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
-                    <h3 class="mt-8 font-bold text-xl sm:text-2xl">Web Developer</h3>
-                    <p class="mt-6">Adipiscing facilisis fringilla lorem volutpat nibh massa non aliquam diam iaculis nunc</p>
-                </div>
-                <div class="md:w-1/3 border border-alto text-center py-10 px-8 rounded-2xl">
-                    <div class="h-14 w-14 bg-concrete flex justify-center items-center rounded-xl mx-auto">
-                        <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8 30L33 30C34.3807 30 35.5 28.8807 35.5 27.5V10C35.5 8.61929 34.3807 7.5 33 7.5L8 7.5C6.61929 7.5 5.5 8.61929 5.5 10L5.5 27.5C5.5 28.8807 6.61929 30 8 30Z" stroke="#040404" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M25.5 35H15.5" stroke="#040404" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M5.5 23.75H35.5" stroke="#040404" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M20.5 30V35" stroke="#040404" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
                     <h3 class="mt-8 font-bold text-xl sm:text-2xl">Mobile Developer</h3>
                     <p class="mt-6">Adipiscing facilisis fringilla lorem volutpat nibh massa non aliquam diam iaculis nunc</p>
                 </div>
             </div>
+
+            <div class="relative">
+                <div class="absolute -top-8 md:-top-28 left-0 z-[-1]">
+                    <svg class="absolute h-auto left-0" width="94" height="378" viewBox="0 0 94 378" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M93.5 218.165c0 100.376-82.596 181.76-184.5 181.76s-184.5-81.384-184.5-181.76c0-100.377 82.596-181.76 184.5-181.76s184.5 81.383 184.5 181.76Z" stroke="#834BFF" stroke-opacity=".3" />
+                        <path d="M72.5 145.261c0 100.376-82.596 181.76-184.5 181.76s-184.5-81.384-184.5-181.76C-296.5 44.884-213.904-36.5-112-36.5S72.5 44.884 72.5 145.261Z" stroke="#834BFF" stroke-opacity=".3" />
+                    </svg>
+                    <div style="background: linear-gradient(73.6deg, #cccaf9 -7.76%, #becbff 114.36%)" class="w-44 h-[28rem] absolute blur-[100px] z-[-1] -left-16 top-28 md:top-32 rounded-3xl"></div>
+                </div>
+                <div class="max-w-[78rem] mx-auto px-6 mt-16 md:mt-32">
+                    <div class="flex justify-between md:items-center gap-6 flex-col md:flex-row">
+                        <h2 class="font-bold text-3xl md:text-4xl max-w-md">Work hard, successful client product</h2>
+                        <p class="max-w-lg">Build close relationships with my clients. I believe dynamic collaborstion is the only way to get the job done well.</p>
+                    </div>
+                    <div class="flex flex-col md:flex-row gap-8 mt-16">
+                        <div class="md:w-1/3 cursor-pointer relative group overflow-hidden rounded-2xl">
+                            <img class="w-full group-hover:blur-sm" src="./assets/images/p1.svg" alt="" width="350" height="350" />
+                            <a target="_blank" href="" class="hidden group-hover:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-fit bg-electric-violet hover:bg-purple-heart text-white rounded-full py-4 px-6 font-bold tracking-wider">Preview</a>
+                        </div>
+                        <div class="md:w-1/3 cursor-pointer relative group overflow-hidden rounded-2xl">
+                            <img class="w-full group-hover:blur-sm" src="./assets/images/p2.svg" alt="" width="350" height="350" />
+                            <a target="_blank" href="" class="hidden group-hover:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-fit bg-electric-violet hover:bg-purple-heart text-white rounded-full py-4 px-6 font-bold tracking-wider">Preview</a>
+                        </div>
+                        <div class="md:w-1/3 cursor-pointer relative group overflow-hidden rounded-2xl">
+                            <img class="w-full group-hover:blur-sm" src="./assets/images/p3.svg" alt="" width="350" height="350" />
+                            <a target="_blank" href="" class="hidden group-hover:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-fit bg-electric-violet hover:bg-purple-heart text-white rounded-full py-4 px-6 font-bold tracking-wider">Preview</a>
+                        </div>
+                    </div>
+                    <a href="" class="block w-fit bg-electric-violet hover:bg-purple-heart text-white rounded-full py-4 px-6 font-bold tracking-wider mt-12 md:mt-16 border-2 active:bg-purple-heart active:border-[#A981FF] mx-auto">All Projects</a>
+                </div>
+            </div>
+
+            <div class="max-w-[78rem] mx-auto px-6 mt-16 md:mt-32">
+                <div class="px-8 md:px-24 py-12 md:py-14 rounded-2xl bg-[#F9FBFC] relative overflow-hidden">
+                    <div class="flex flex-col items-center text-center gap-10 z-10 relative">
+                        <svg width="40" height="34" viewBox="0 0 40 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.8022 15.4361C11.817 15.1524 10.8318 15.0085 9.87348 15.0085C8.39362 15.0085 7.15879 15.3467 6.2013 15.7608C7.12438 12.3815 9.34187 6.55057 13.7592 5.89392C14.1683 5.83308 14.5036 5.53728 14.6152 5.13909L15.5806 1.68594C15.662 1.39391 15.6138 1.08132 15.4472 0.82789C15.2806 0.574463 15.0129 0.405371 14.7129 0.364252C14.3869 0.319777 14.0546 0.297119 13.7252 0.297119C8.42299 0.297119 3.17192 5.8314 0.956109 13.7556C-0.344595 18.4046 -0.725995 25.394 2.47793 29.7933C4.27081 32.255 6.88648 33.5695 10.2524 33.7009C10.2662 33.7013 10.2796 33.7017 10.2935 33.7017C14.4465 33.7017 18.1292 30.9048 19.2495 26.9007C19.9187 24.507 19.6162 21.9966 18.3969 19.8303C17.1906 17.6884 15.2039 16.1271 12.8022 15.4361Z"
+                                fill="#834BFF"
+                            />
+                            <path
+                                d="M38.7988 19.8308C37.5925 17.6884 35.6058 16.1271 33.2041 15.4361C32.219 15.1524 31.2338 15.0085 30.2759 15.0085C28.796 15.0085 27.5608 15.3467 26.6033 15.7608C27.5263 12.3815 29.7438 6.55057 34.1616 5.89392C34.5707 5.83308 34.9055 5.53728 35.0176 5.13909L35.983 1.68594C36.0644 1.39391 36.0162 1.08132 35.8496 0.82789C35.6834 0.574463 35.4157 0.405371 35.1153 0.364252C34.7897 0.319777 34.4574 0.297119 34.1276 0.297119C28.8254 0.297119 23.5743 5.8314 21.3581 13.7556C20.0578 18.4046 19.6764 25.394 22.8807 29.7941C24.6732 32.2554 27.2893 33.5704 30.6547 33.7013C30.6686 33.7017 30.682 33.7021 30.6963 33.7021C34.8489 33.7021 38.532 30.9052 39.6523 26.9011C40.3207 24.5074 40.0177 21.9966 38.7988 19.8308Z"
+                                fill="#834BFF"
+                            />
+                        </svg>
+                        <p class="text-2xl md:text-3xl">“Abdelmounaim is a very reliable guy, his work is really good and we have super rarely feedback loops, which makes it very pleasant to work with him. Can recommend everyone to start a project with him and see for yourself!”</p>
+                        <div>
+                            <a href="/" class="font-bold text-2xl">Manuel Grund</a>
+                            <div class="text-emperor text-sm mt-2">COO NXT YOU</div>
+                        </div>
+                    </div>
+                    <div style="background: linear-gradient(73.6deg, #cccaf9 -7.76%, #dee5ff 114.36%); filter: blur(100px)" class="absolute -bottom-8 w-full md:w-2/3 h-4/5 left-1/2 -translate-x-1/2 rounded-full opacity-60 md:opacity-100"></div>
+                    <svg class="absolute top-0 right-0" width="235" height="135" viewBox="0 0 235 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="179" cy="-50" r="184.5" stroke="#834BFF" stroke-opacity="0.3" />
+                        <circle cx="158" cy="-124" r="184.5" stroke="#834BFF" stroke-opacity="0.3" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="max-w-[78rem] mx-auto px-6 mt-16 md:mt-32">
+                <div class="font-bold text-3xl md:text-5xl lg:text-6xl !leading-relaxed">
+                    Let’s make something amazing together<br />
+                    start by <a href="/contact" class="text-electric-violet hover:underline">Saying Hi</a>
+                    <svg class="inline" width="36" height="30" viewBox="0 0 36 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2 13C0.89543 13 -9.65645e-08 13.8954 0 15C9.65645e-08 16.1046 0.895431 17 2 17L2 13ZM35.4142 16.4142C36.1953 15.6332 36.1953 14.3668 35.4142 13.5858L22.6863 0.857863C21.9052 0.0768141 20.6389 0.0768142 19.8579 0.857863C19.0768 1.63891 19.0768 2.90524 19.8579 3.68629L31.1716 15L19.8579 26.3137C19.0768 27.0948 19.0768 28.3611 19.8579 29.1421C20.6389 29.9232 21.9052 29.9232 22.6863 29.1421L35.4142 16.4142ZM2 17L34 17L34 13L2 13L2 17Z"
+                            fill="#834BFF"
+                        />
+                    </svg>
+                </div>
+            </div>
         </main>
+
+        <footer class="max-w-[78rem] mx-auto px-6 mt-16 md:mt-32">
+            <div class="flex items-center justify-between flex-col sm:flex-row gap-6 border-t border-t-black/20 py-12">
+                <ul class="flex gap-6 items-center">
+                    <li>
+                        <a target="_blank" href="/"
+                            ><svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.1456 1.1448C20.7856 0.839522 20.2202 0.795842 19.6355 1.03056H19.6346C19.0197 1.27728 2.22928 8.4792 1.54576 8.77344C1.42144 8.81664 0.335681 9.22176 0.447521 10.1242C0.547361 10.9378 1.42 11.2747 1.52656 11.3136L5.7952 12.7752C6.0784 13.7179 7.1224 17.196 7.35328 17.939C7.49728 18.4022 7.732 19.0109 8.14336 19.1362C8.50432 19.2754 8.86336 19.1482 9.09568 18.9658L11.7054 16.5451L15.9184 19.8307L16.0187 19.8907C16.3048 20.0174 16.5789 20.0808 16.8405 20.0808C17.0426 20.0808 17.2365 20.0429 17.4218 19.967C18.053 19.7078 18.3054 19.1064 18.3318 19.0382L21.4787 2.68128C21.6707 1.80768 21.4038 1.3632 21.1456 1.1448ZM9.55984 13.3598L8.11984 17.1998L6.67984 12.3998L17.7198 4.23984L9.55984 13.3598Z"
+                                    fill="#4F4F4F"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="/"
+                            ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2851_155)">
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M5 0C3.67392 0 2.40215 0.526784 1.46447 1.46447C0.526784 2.40215 0 3.67392 0 5L0 19C0 19.6566 0.129329 20.3068 0.380602 20.9134C0.631876 21.52 1.00017 22.0712 1.46447 22.5355C2.40215 23.4732 3.67392 24 5 24H19C19.6566 24 20.3068 23.8707 20.9134 23.6194C21.52 23.3681 22.0712 22.9998 22.5355 22.5355C22.9998 22.0712 23.3681 21.52 23.6194 20.9134C23.8707 20.3068 24 19.6566 24 19V5C24 4.34339 23.8707 3.69321 23.6194 3.08658C23.3681 2.47995 22.9998 1.92876 22.5355 1.46447C22.0712 1.00017 21.52 0.631876 20.9134 0.380602C20.3068 0.129329 19.6566 0 19 0L5 0ZM7.465 18.158C7.465 18.6301 7.27746 19.0828 6.94365 19.4167C6.60984 19.7505 6.15709 19.938 5.685 19.938C5.21291 19.938 4.76016 19.7505 4.42635 19.4167C4.09254 19.0828 3.905 18.6301 3.905 18.158V11.006C3.905 10.5339 4.09254 10.0812 4.42635 9.74735C4.76016 9.41353 5.21291 9.226 5.685 9.226C6.15709 9.226 6.60984 9.41353 6.94365 9.74735C7.27746 10.0812 7.465 10.5339 7.465 11.006V18.158ZM5.685 7.764H5.66C4.466 7.764 3.691 6.941 3.691 5.912C3.691 4.861 4.488 4.062 5.707 4.062C6.926 4.062 7.675 4.861 7.698 5.912C7.698 6.941 6.926 7.764 5.684 7.764H5.685ZM20.308 18.158C20.308 18.6304 20.1204 19.0834 19.7864 19.4174C19.4524 19.7514 18.9994 19.939 18.527 19.939C18.0546 19.939 17.6016 19.7514 17.2676 19.4174C16.9336 19.0834 16.746 18.6304 16.746 18.158V14.208C16.746 12.768 16.231 11.785 14.942 11.785C13.958 11.785 13.372 12.447 13.115 13.088C13.021 13.317 12.997 13.635 12.997 13.956V18.162C12.997 19.143 12.201 19.939 11.22 19.939C10.986 19.9393 10.7543 19.8933 10.5381 19.8037C10.322 19.7141 10.1256 19.5827 9.9604 19.4171C9.79518 19.2514 9.66433 19.0547 9.57537 18.8383C9.4864 18.6218 9.44108 18.39 9.442 18.156C9.45 16.195 9.46 13.055 9.454 11.046C9.45424 10.5661 9.64388 10.1058 9.98169 9.76498C10.3195 9.42417 10.7782 9.23048 11.258 9.226H12.65C12.841 9.226 12.997 9.381 12.997 9.573C12.997 9.918 13.485 10.076 13.742 9.845C14.271 9.371 15.039 8.975 16.207 8.975C18.551 8.975 20.307 10.505 20.307 13.795V18.158H20.308Z"
+                                        fill="#4F4F4F"
+                                    />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2851_155">
+                                        <rect width="24" height="24" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="/"
+                            ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 0C5.374 0 0 5.373 0 12C0 17.302 3.438 21.8 8.207 23.387C8.806 23.498 9 23.126 9 22.81V20.576C5.662 21.302 4.967 19.16 4.967 19.16C4.421 17.773 3.634 17.404 3.634 17.404C2.545 16.659 3.717 16.675 3.717 16.675C4.922 16.759 5.556 17.912 5.556 17.912C6.626 19.746 8.363 19.216 9.048 18.909C9.155 18.134 9.466 17.604 9.81 17.305C7.145 17 4.343 15.971 4.343 11.374C4.343 10.063 4.812 8.993 5.579 8.153C5.455 7.85 5.044 6.629 5.696 4.977C5.696 4.977 6.704 4.655 8.997 6.207C9.954 5.941 10.98 5.808 12 5.803C13.02 5.808 14.047 5.941 15.006 6.207C17.297 4.655 18.303 4.977 18.303 4.977C18.956 6.63 18.545 7.851 18.421 8.153C19.191 8.993 19.656 10.064 19.656 11.374C19.656 15.983 16.849 16.998 14.177 17.295C14.607 17.667 15 18.397 15 19.517V22.81C15 23.129 15.192 23.504 15.801 23.386C20.566 21.797 24 17.3 24 12C24 5.373 18.627 0 12 0Z"
+                                    fill="#4F4F4F"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <p class="text-sm text-emperor">Copyright © 2022. Crafted with love.</p>
+            </div>
+        </footer>
 
         <script>
             var header = document.querySelector("header");
