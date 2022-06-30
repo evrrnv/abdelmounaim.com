@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="text-[15px] md:text-[16px] h-full">
+    <head>
+        <title>Contact | Abdelmounaim Bousmat</title>
+
+        <!-- Meta -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Abdelmounaim Bousmat's site" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/css/tailwind.min.css" />
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png" />
+        <link rel="manifest" href="./assets/images/favicon/site.webmanifest" />
+
+        <style></style>
+    </head>
+    <body class="font-inter text-black relative h-full">
+        <svg class="hidden md:block absolute bottom-0 left-0" width="230" height="404" viewBox="0 0 230 404" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="178.5" cy="55.5" r="13.5" fill="#834BFF" fill-opacity="0.4" />
+            <circle cx="21" cy="7" r="7" fill="#834BFF" fill-opacity="0.4" />
+            <circle cx="67.5" cy="217.5" r="13.5" fill="#834BFF" fill-opacity="0.4" />
+            <circle cx="16" cy="353" r="187.5" stroke="#834BFF" stroke-opacity="0.3" />
+            <circle cx="-26.5" cy="335.5" r="256" stroke="#834BFF" stroke-opacity="0.3" />
+            <circle cx="143" cy="293" r="7" fill="#834BFF" fill-opacity="0.4" />
+        </svg>
+
+        <svg class="md:hidden absolute top-0 left-0 z-[-1]" width="206" height="313" viewBox="0 0 206 313" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="-8" cy="74" r="187.5" stroke="#834BFF" stroke-opacity="0.3" />
+            <circle cx="-50.5" cy="56.5" r="256" stroke="#834BFF" stroke-opacity="0.3" />
+            <circle cx="119" cy="14" r="7" fill="#834BFF" fill-opacity="0.4" />
+        </svg>
+
+        <!-- <div style="background: linear-gradient(73.6deg, #CCCAF9 -7.76%, #BECBFF 114.36%);" class="absolute bottom-0 -left-32 w-[32rem] h-[40rem] blur-[100px] z-[-1]"></div> -->
+
+        <header class="w-full">
+            <div class="flex flex-wrap sm:flex-nowrap items-center justify-between max-w-[78rem] mx-auto py-4">
+                <a href="/" class="block order-1 text-electric-violet font-bold text-2xl ml-6">Abdelmounaim.</a>
+                <ul id="nav-links" class="shadow-lg shadow-concrete sm:shadow-none hidden mt-5 py-5 sm:mt-auto order-3 border-t border-black/20 sm:border-none w-full sm:w-auto sm:flex gap-8 text-center sm:text-left sm:mr-6">
+                    <li class="relative py-3">
+                        <a
+                            href="/portfolio.html"
+                            class="after:content-[''] text-emperor text-lg hover:text-electric-violet sm:hover:after:block sm:hover:after:w-2 sm:hover:after:h-2 sm:hover:after:bg-electric-violet after:rounded-full sm:hover:after:absolute sm:hover:after:left-1/2 sm:hover:after:-bottom-3 sm:hover:after:-translate-x-1/2"
+                            >Portfolio</a
+                        >
+                    </li>
+                    <li class="relative py-3">
+                        <a href="/contact.html" class="after:content-[''] text-lg text-electric-violet sm:after:block sm:after:w-2 sm:after:h-2 sm:after:bg-electric-violet after:rounded-full sm:after:absolute sm:after:left-1/2 sm:after:-bottom-3 sm:after:-translate-x-1/2">Contact</a>
+                    </li>
+                </ul>
+                <button aria-label="Toggle Menu" id="menu" class="order-2 sm:hidden text-gray-500 w-10 h-10 relative focus:outline-none mr-6">
+                    <div class="block w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 animate-top-line">
+                        <span aria-hidden="true" class="block absolute h-0.5 w-6 bg-electric-violet transform transition duration-500 ease-in-out top-line"></span>
+                        <span aria-hidden="true" class="block absolute h-0.5 w-6 bg-electric-violet transform transition duration-500 ease-in-out middle-line"></span>
+                        <span aria-hidden="true" class="block absolute h-0.5 w-6 bg-electric-violet transform transition duration-500 ease-in-out bottom-line"></span>
+                    </div>
+                </button>
+            </div>
+        </header>
+
+        <main class="py-16 md:pt-28 px-6 max-w-[78rem] mx-auto flex justify-around flex-col md:flex-row gap-16">
+            <div class="max-w-sm">
+                <h1 class="font-bold text-5xl leading-tight">Hi, let's talk about your project!</h1>
+                <a href="mailto:hi@abdlemounaim.com" class="underline text-electric-violet font-bold text-xl sm:text-lg block mt-8">hi@abdelmounaim.com</a>
+            </div>
+            <form class="max-w-lg w-full">
+                <input class="w-full outline-none border-b md:border-b-2 border-b-alto/50 focus:border-b-electric-violet py-4 placeholder:text-lg" type="text" name="name" placeholder="Your name?" autocomplete="off" />
+                <input class="w-full outline-none border-b md:border-b-2 border-b-alto/50 focus:border-b-electric-violet py-4 placeholder:text-lg mt-8" type="email" name="name" placeholder="Your email?" autocomplete="off" />
+                <textarea rows="7" class="w-full outline-none border-b md:border-b-2 border-b-alto/50 focus:border-b-electric-violet py-4 placeholder:text-lg mt-8 resize-none" placeholder="Write your message"></textarea>
+                <button class="bg-electric-violet hover:bg-purple-heart text-white rounded-full py-4 px-8 font-bold tracking-wider mt-16 border-2 active:bg-purple-heart active:border-[#A981FF]">Send Message</button>
+            </form>
+        </main>
+
+        <script>
+            var header = document.querySelector("header");
+            var menu = document.getElementById("menu");
+
+            menu.addEventListener("click", function () {
+                header.classList.toggle("open");
+            });
+        </script>
+    </body>
+</html>
