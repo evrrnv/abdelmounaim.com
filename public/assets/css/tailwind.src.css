@@ -23,6 +23,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .overflow-initial {
+        overflow-y: initial;
+    }
+}
+
 .top-line {
     transform: translateY(-0.42rem);
 }
