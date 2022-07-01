@@ -17,10 +17,13 @@
         <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png" />
         <link rel="manifest" href="./assets/images/favicon/site.webmanifest" />
-
-        <style></style>
     </head>
     <body class="font-inter text-black relative h-full">
+        <div class="hidden lg:block w-[60rem] h-full absolute bottom-0 left-0 z-[-1] overflow-y-clip">
+            <div style="background: linear-gradient(73.6deg, #cccaf9 -7.76%, #becbff 114.36%)" class="w-full h-[30rem] rounded-[5rem] absolute bottom-0 blur-[250px] -translate-x-1/2 translate-y-1/2"></div>
+        </div>
+        
+
         <svg class="hidden md:block absolute bottom-0 left-0" width="230" height="404" viewBox="0 0 230 404" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="178.5" cy="55.5" r="13.5" fill="#834BFF" fill-opacity="0.4" />
             <circle cx="21" cy="7" r="7" fill="#834BFF" fill-opacity="0.4" />
@@ -36,12 +39,12 @@
             <circle cx="119" cy="14" r="7" fill="#834BFF" fill-opacity="0.4" />
         </svg>
 
-        <!-- <div style="background: linear-gradient(73.6deg, #CCCAF9 -7.76%, #BECBFF 114.36%);" class="absolute bottom-0 -left-32 w-[32rem] h-[40rem] blur-[100px] z-[-1]"></div> -->
+        <div style="background: linear-gradient(73.6deg, #cccaf9 -7.76%, #becbff 114.36%)" class="w-full h-[32rem] md:h-[40rem] absolute -top-16 md:top-0 z-[-1] left-1/2 -translate-x-1/2 blur-[138px] !opacity-30 md:hidden rounded-br-full"></div>
 
         <header class="w-full">
             <div class="flex flex-wrap sm:flex-nowrap items-center justify-between max-w-[78rem] mx-auto py-4">
                 <a href="/" class="block order-1 text-electric-violet font-bold text-2xl ml-6">Abdelmounaim.</a>
-                <ul id="nav-links" class="shadow-lg shadow-concrete sm:shadow-none hidden mt-5 py-5 sm:mt-auto order-3 border-t border-black/20 sm:border-none w-full sm:w-auto sm:flex gap-8 text-center sm:text-left sm:mr-6">
+                <ul id="nav-links" class="hidden mt-5 py-5 sm:mt-auto order-3 border-t border-black/20 sm:border-none w-full sm:w-auto sm:flex gap-8 text-center sm:text-left sm:mr-6">
                     <li class="relative py-3">
                         <a
                             href="/portfolio.html"
@@ -69,9 +72,9 @@
                 <a href="mailto:hi@abdlemounaim.com" class="underline text-electric-violet font-bold text-xl sm:text-lg block mt-8">hi@abdelmounaim.com</a>
             </div>
             <form class="max-w-lg w-full">
-                <input class="w-full outline-none border-b md:border-b-2 border-b-alto/50 focus:border-b-electric-violet py-4 placeholder:text-lg" type="text" name="name" placeholder="Your name?" autocomplete="off" />
-                <input class="w-full outline-none border-b md:border-b-2 border-b-alto/50 focus:border-b-electric-violet py-4 placeholder:text-lg mt-8" type="email" name="name" placeholder="Your email?" autocomplete="off" />
-                <textarea rows="7" class="w-full outline-none border-b md:border-b-2 border-b-alto/50 focus:border-b-electric-violet py-4 placeholder:text-lg mt-8 resize-none" placeholder="Write your message"></textarea>
+                <input class="w-full bg-transparent outline-none border-b md:border-b-2 border-b-alto/50 focus:border-b-electric-violet py-4 placeholder:text-lg" type="text" name="name" placeholder="Your name?" autocomplete="off" />
+                <input class="w-full bg-transparent outline-none border-b md:border-b-2 border-b-alto/50 focus:border-b-electric-violet py-4 placeholder:text-lg mt-8" type="email" name="name" placeholder="Your email?" autocomplete="off" />
+                <textarea rows="7" class="w-full bg-transparent outline-none border-b md:border-b-2 border-b-alto/50 focus:border-b-electric-violet py-4 placeholder:text-lg mt-8 resize-none" placeholder="Write your message"></textarea>
                 <button class="bg-electric-violet hover:bg-purple-heart text-white rounded-full py-4 px-8 font-bold tracking-wider mt-16 border-2 active:bg-purple-heart active:border-[#A981FF]">Send Message</button>
             </form>
         </main>
