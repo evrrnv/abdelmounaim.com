@@ -18,6 +18,9 @@ module.exports = {
             backgroundImage: {
                 whitetro: "linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)",
             },
+            screens: {
+                'mdx': { 'raw': '(max-height: 800px)' }
+            }
         },
     },
     plugins: [
