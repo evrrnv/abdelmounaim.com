@@ -69,3 +69,7 @@
 .lgd-01 {
     background: linear-gradient(73.6deg, #cccaf9 -7.76%, #becbff 114.36%);
 }
+
+.grid-gap-8 {
+    grid-gap: 2rem;
+}
