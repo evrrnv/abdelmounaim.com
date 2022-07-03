@@ -14,13 +14,14 @@ module.exports = {
                 "purple-heart": "#6238BF",
                 alto: "#CECECE",
                 concrete: "#F2F2F2",
+                "black-squeeze": "#F8FBFC",
             },
             backgroundImage: {
                 whitetro: "linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)",
             },
             screens: {
-                'mdx': { 'raw': '(max-height: 800px)' }
-            }
+                mdx: { raw: "(min-width: 768px) and (max-width: 1400px) and (max-height: 900px)" },
+            },
         },
     },
     plugins: [
