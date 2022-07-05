@@ -1,5 +1,6 @@
 node_modules
 build
 server/
-# Local Netlify folder
 .netlify
+.vscode
+aws-lambda/
