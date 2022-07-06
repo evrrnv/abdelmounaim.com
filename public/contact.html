@@ -20,7 +20,7 @@
         <meta name="msapplication-square70x70logo" content="./assets/images/favicon/favicon-70.png" />
         <meta name="msapplication-square150x150logo" content="./assets/images/favicon/favicon-150.png" />
         <meta name="msapplication-square310x310logo" content="./assets/images/favicon/favicon-310.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./assets/images/favicon/favicon-152.pn" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./assets/images/favicon/favicon-152.png" />
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/images/favicon/favicon-144.png" />
         <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./assets/images/favicon/favicon-120.png" />
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/images/favicon/favicon-114.png" />
@@ -42,13 +42,13 @@
                 <ul id="nav-links" class="hidden mt-5 py-5 sm:mt-auto order-3 border-t border-black/20 sm:border-none w-full sm:w-auto sm:flex sm:space-x-8 text-center sm:text-left sm:mr-6">
                     <li class="relative py-3">
                         <a
-                            href="/portfolio.html"
+                            href="/portfolio"
                             class="after:content-[''] text-emperor text-lg hover:text-electric-violet sm:hover:after:block sm:hover:after:w-2 sm:hover:after:h-2 sm:hover:after:bg-electric-violet after:rounded-full sm:hover:after:absolute sm:hover:after:left-1/2 sm:hover:after:-bottom-3 sm:hover:after:-translate-x-1/2"
                             >Portfolio</a
                         >
                     </li>
                     <li class="relative py-3">
-                        <a href="/contact.html" class="after:content-[''] text-lg text-electric-violet sm:after:block sm:after:w-2 sm:after:h-2 sm:after:bg-electric-violet after:rounded-full sm:after:absolute sm:after:left-1/2 sm:after:-bottom-3 sm:after:-translate-x-1/2">Contact</a>
+                        <a href="/contact" class="after:content-[''] text-lg text-electric-violet sm:after:block sm:after:w-2 sm:after:h-2 sm:after:bg-electric-violet after:rounded-full sm:after:absolute sm:after:left-1/2 sm:after:-bottom-3 sm:after:-translate-x-1/2">Contact</a>
                     </li>
                 </ul>
                 <button aria-label="Toggle Menu" id="menu" class="order-2 sm:hidden text-gray-500 w-10 h-10 relative focus:outline-none mr-6">
@@ -68,10 +68,13 @@
                     <a href="mailto:hi@abdlemounaim.com" class="underline text-electric-violet font-bold text-xl sm:text-lg block mt-8">hi@abdelmounaim.com</a>
                 </div>
                 <form class="max-w-lg w-full">
-                    <input class="w-full bg-transparent outline-none border-b md:border-b-2 border-b-alto/50 focus:border-b-electric-violet py-4 placeholder:text-lg" type="text" name="name" placeholder="Your name?" autocomplete="off" />
-                    <input class="w-full bg-transparent outline-none border-b md:border-b-2 border-b-alto/50 focus:border-b-electric-violet py-4 placeholder:text-lg mt-8" type="email" name="name" placeholder="Your email?" autocomplete="off" />
-                    <textarea rows="7" class="w-full bg-transparent outline-none border-b md:border-b-2 border-b-alto/50 focus:border-b-electric-violet py-4 placeholder:text-lg mt-8 resize-none" placeholder="Write your message"></textarea>
-                    <button class="bg-electric-violet hover:bg-purple-heart text-white rounded-full py-4 px-8 font-bold tracking-wider mt-16 border-2 active:bg-purple-heart active:border-[#A981FF]">Send Message</button>
+                    <input class="w-full bg-transparent outline-none border-b md:border-b-2 border-b-alto/50 focus:border-b-electric-violet py-4 text-lg placeholder:text-lg" type="text" name="name" placeholder="Your name?" autocomplete="off" />
+                    <input class="w-full bg-transparent outline-none border-b md:border-b-2 border-b-alto/50 focus:border-b-electric-violet py-4 text-lg placeholder:text-lg mt-8" type="email" name="name" placeholder="Your email?" autocomplete="off" />
+                    <textarea rows="7" class="w-full bg-transparent outline-none border-b md:border-b-2 border-b-alto/50 focus:border-b-electric-violet py-4 text-lg placeholder:text-lg mt-8 resize-none" placeholder="Write your message"></textarea>
+                    <button class="bg-electric-violet hover:bg-purple-heart text-white rounded-full py-4 px-8 font-bold tracking-wider mt-16 border-2 active:bg-purple-heart active:border-[#A981FF] flex items-center space-x-2">
+                        <svg class="animate-spin hidden" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 6a5 5 0 1 1 5 5" stroke="#fff" stroke-width="3" /></svg>
+                        <span>Send Message</span>
+                    </button>
                 </form>
             </div>
 
@@ -135,5 +138,6 @@
         </footer>
 
         <script src="./assets/js/shared.js"></script>
+        <script src="./assets/js/contact.js"></script>
     </body>
 </html>

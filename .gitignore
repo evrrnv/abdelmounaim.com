@@ -3,4 +3,3 @@ build
 server/
 .netlify
 .vscode
-aws-lambda/
