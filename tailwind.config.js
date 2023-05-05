@@ -15,6 +15,8 @@ module.exports = {
                 alto: "#CECECE",
                 concrete: "#F2F2F2",
                 "black-squeeze": "#F8FBFC",
+                "athens-gray": "#EAEBEF",
+                "heliotrope": "#A981FF"
             },
             backgroundImage: {
                 whitetro: "linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)",
